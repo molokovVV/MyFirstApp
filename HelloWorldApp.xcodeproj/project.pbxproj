@@ -13,6 +13,8 @@
 		820C13A02472FF9100D7FA2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 820C139E2472FF9100D7FA2D /* Main.storyboard */; };
 		820C13A22472FF9300D7FA2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 820C13A12472FF9300D7FA2D /* Assets.xcassets */; };
 		820C13A52472FF9300D7FA2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 820C13A32472FF9300D7FA2D /* LaunchScreen.storyboard */; };
+		8258AA8C247571BE0074DC4E /* HelloWorldApp in Resources */ = {isa = PBXBuildFile; fileRef = 8258AA8B247571BE0074DC4E /* HelloWorldApp */; };
+		8258AA8E247571C70074DC4E /* HelloWorldApp in Resources */ = {isa = PBXBuildFile; fileRef = 8258AA8D247571C70074DC4E /* HelloWorldApp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		820C13A12472FF9300D7FA2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		820C13A42472FF9300D7FA2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		820C13A62472FF9300D7FA2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8258AA8B247571BE0074DC4E /* HelloWorldApp */ = {isa = PBXFileReference; lastKnownFileType = folder; name = HelloWorldApp; sourceTree = "<group>"; };
+		8258AA8D247571C70074DC4E /* HelloWorldApp */ = {isa = PBXFileReference; lastKnownFileType = folder; name = HelloWorldApp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +63,9 @@
 				820C13982472FF9100D7FA2D /* AppDelegate.swift */,
 				820C139A2472FF9100D7FA2D /* SceneDelegate.swift */,
 				820C139C2472FF9100D7FA2D /* ViewController.swift */,
+				8258AA8B247571BE0074DC4E /* HelloWorldApp */,
 				820C139E2472FF9100D7FA2D /* Main.storyboard */,
+				8258AA8D247571C70074DC4E /* HelloWorldApp */,
 				820C13A12472FF9300D7FA2D /* Assets.xcassets */,
 				820C13A32472FF9300D7FA2D /* LaunchScreen.storyboard */,
 				820C13A62472FF9300D7FA2D /* Info.plist */,
@@ -125,8 +131,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8258AA8E247571C70074DC4E /* HelloWorldApp in Resources */,
 				820C13A52472FF9300D7FA2D /* LaunchScreen.storyboard in Resources */,
 				820C13A22472FF9300D7FA2D /* Assets.xcassets in Resources */,
+				8258AA8C247571BE0074DC4E /* HelloWorldApp in Resources */,
 				820C13A02472FF9100D7FA2D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
